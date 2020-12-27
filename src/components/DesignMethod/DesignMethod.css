@@ -1,0 +1,32 @@
+.design-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.design-block-container {
+    display: flex;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+}
+
+.select {
+    width: 150px;
+}
+
+.design-title {
+    margin-top: 0;
+    font-size: 20px;
+}
+#IIR {
+    margin-top: 5px;
+}
+
+#FIR {
+    margin-top: 10px;
+}
