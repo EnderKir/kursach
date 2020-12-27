@@ -22,12 +22,12 @@ function MagnitudeSpecifications({unity, setUnity, apass, astop, setApass, setAs
             </div>
             <div className='param-block'>
                 <p className='param-title'>Apass:</p>
-                <TextField id="fs" variant="outlined" size={"small"} value={apass}
+                <TextField id="apass" variant="outlined" size={"small"} value={apass}
                            onChange={(e) => setApass(e.target.value)}/>
             </div>
             <div className='param-block'>
                 <p className='param-title'>Astop:</p>
-                <TextField id="fpass" variant="outlined" size={"small"} value={astop}
+                <TextField id="astop" variant="outlined" size={"small"} value={astop}
                            onChange={(e) => setAstop(e.target.value)}/>
             </div>
         </div>
